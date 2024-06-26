@@ -129,7 +129,7 @@ p::first-letter {
 
   @media (width<=900px){
     .content{
-        height: 60vh;
+        height: 70vh;
         width: 40vw;
     }
     .input-search{
@@ -151,7 +151,7 @@ h1{
 
   @media (width<=500px){
     .content{
-        height: 62vh;
+        height: 70vh;
         width: 75vw;
     }
     h1{
