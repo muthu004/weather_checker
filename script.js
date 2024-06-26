@@ -9,7 +9,7 @@ const image = document.querySelector(".icon");
 search.addEventListener("click", fetchWeather);
 
 container.textContent = "";
-const api ="57de625892f83fe4bec4143bafbf28d7" ;
+const api ="Yourapikey" ;
 async function fetchWeather() {
   try {
     container.textContent = "";
