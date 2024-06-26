@@ -54,7 +54,7 @@ async function fetchWeather() {
         case weatherId >= 300 && weatherId < 400:
           return `./assets/drizzle.png`;
         case weatherId >= 500 && weatherId < 600:
-          return "./assets/rainy-day.png";
+          return `./assets/rainy-day.png`;
         case weatherId >= 600 && weatherId < 700:
           return `./assets/snow.png`;
         case weatherId >= 700 && weatherId < 800:
