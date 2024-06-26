@@ -152,14 +152,20 @@ h1{
   @media (width<=500px){
     .content{
         height: 62vh;
-        width: 45vw;
+        width: 75vw;
     }
     h1{
         font-size: 1.25rem;
     }
     .input-search{
-        width: 10rem;
+        width: 15rem;
+        height: 3rem;
+        font-size:1.35rem;
     }
-        
+        .button{
+            width: 8rem;
+        height: 2.5rem; 
+        font-size: large;
+        }
       }
 
