@@ -21,13 +21,17 @@ body {
     justify-content: center;
     align-items: center;
   height: 100vh;
-  background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);}
-
+background: lightblue;
+background-position: center;
+background-size: cover;
+}
 .content{
-    background-color: #00308F;
+  background-color:blueviolet;
     height: 77vh;
     width: 30vw;
     border-radius: 15px;
+    border: 2px solid blue;
+
     box-shadow: rgba(89, 64, 173, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
