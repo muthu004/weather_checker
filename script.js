@@ -1,4 +1,3 @@
-
 const search = document.querySelector(".button");
 const container = document.querySelector(".container");
 const main = document.querySelector(".main");
@@ -10,7 +9,7 @@ const image = document.querySelector(".icon");
 search.addEventListener("click", fetchWeather);
 
 container.textContent = "";
-const api = config.API_KEY
+const api =process.env.API_KEY ;
 async function fetchWeather() {
   try {
     container.textContent = "";
